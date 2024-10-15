@@ -11,7 +11,7 @@ const SignInPage = () => {
         <Login />
         <p className="auth-text">
           If you are not registred yet, please
-          <Link to="/registration">sign up.</Link>
+          <Link to="/registration" className="auth-link">sign up.</Link>
         </p>
       </div>
     </div>

@@ -10,6 +10,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+.App {
+  height: calc(100vh - env(safe-area-inset-top));
+  min-height: fit-content;
 }
 
 header {
@@ -83,6 +89,10 @@ main a:hover {
 .auth-text {
   display: flex;
   gap: 5px;
+  white-space: nowrap;
+}
+.auth-link {
+  white-space: nowrap;
 }
 
 .form {
@@ -121,6 +131,7 @@ main a:hover {
   color: white;
   padding: 5px;
   cursor: pointer;
+  width: 100%;
 }
 .auth-position {
   display: flex;

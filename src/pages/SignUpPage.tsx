@@ -10,7 +10,8 @@ const SignUpPage = () => {
         {/* <Registration className="form-position" /> */}
         <Registration />
         <p className="auth-text">
-          If you are already registred<Link to="/login">sign in.</Link>
+          If you are already registred
+          <Link to="/login" className="auth-link">sign in.</Link>
         </p>
       </div>
     </div>
