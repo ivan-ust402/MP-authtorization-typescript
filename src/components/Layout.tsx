@@ -1,6 +1,6 @@
 import { useAppDispatch } from "hooks/redux-hooks"
 import { useAuth } from "hooks/useAuth"
-import React, { FC } from "react"
+import React from "react"
 import {
   Link,
   NavLink,
