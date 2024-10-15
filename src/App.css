@@ -17,7 +17,7 @@ body {
 }
 
 .App {
-  height: calc(var(--vh) - env(safe-area-inset-top));
+  height: calc(var(--vh));
   box-sizing: border-box;
   min-height: fit-content;
 }
