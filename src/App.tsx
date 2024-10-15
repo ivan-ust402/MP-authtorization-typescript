@@ -8,6 +8,7 @@ function App() {
     document.documentElement.style.setProperty('--vh', `${window.innerHeight}px`)
   }
 
+  handleResize()
   useEffect(() => {
     window.addEventListener('resize', handleResize)
     return () => {
